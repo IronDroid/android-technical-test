@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                         onNextClick = { state ->
                             Toast.makeText(
                                 this,
-                                "Siguiente: Celular=${state.phoneNumber}, Carnet=${state.idNumber}, Comp=${state.complement}",
+                                "Siguiente: \nCelular=${state.phoneNumber}, \nCarnet=${state.idNumber}, \nComp=${state.complement}",
                                 Toast.LENGTH_LONG
                             ).show()
                         }

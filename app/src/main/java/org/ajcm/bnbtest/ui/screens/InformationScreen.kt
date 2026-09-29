@@ -557,7 +557,6 @@ private fun InputFieldRow(
             color = CardLabelColor,
             fontSize = 14.sp,
             fontWeight = FontWeight.SemiBold,
-            modifier = Modifier.weight(2f)
         )
 
         Spacer(modifier = Modifier.width(8.dp))
